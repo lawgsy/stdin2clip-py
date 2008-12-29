@@ -12,7 +12,6 @@ drwxrwxrwx 1 root root 4.0K 2008-11-23 15:02 (1970) Paranoid
 drwxrwxrwx 1 root root 4.0K 2008-05-14 19:39 (1971) Master of Reality
 drwxrwxrwx 1 root root 4.0K 2008-11-23 15:03 (1973) Sabbath Bloody Sabbath
 drwxrwxrwx 1 root root 4.0K 2008-11-22 02:42 (1980) Live at Last
----------------------------------------------------
 
 
 
@@ -20,7 +19,6 @@ $ echo "what a stupid way to simply copy some text..." | clip
 Successfully copied the following to the clipboard:
 ---------------------------------------------------
 what a stupid way to simply copy some text...
----------------------------------------------------
 
 
 
@@ -35,4 +33,3 @@ Su Mo Tu We Th Fr Sa
 14 15 16 17 18 19 20
 21 22 23 24 25 26 27
 28 29 30 31
----------------------------------------------------

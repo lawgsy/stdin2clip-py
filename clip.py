@@ -20,6 +20,6 @@ try:
     c.store()
     print 'Successfully copied the following to the clipboard:'
     print '---------------------------------------------------'
-    print ''.join([buffer,'---------------------------------------------------'])
+    print buffer
 except:
     error('Failed to copy to clipboard!')
