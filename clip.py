@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
 # Filename: stdin2clip.py
+# Author: Saphalon (aka Chaim)
 # Description:
 # Command-line tool to copy standard input (stdin) to clipboard
 
 # Required modules:
 # pygtk, gtk
-
 
 import sys
 import pygtk

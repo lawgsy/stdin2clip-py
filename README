@@ -15,11 +15,13 @@ drwxrwxrwx 1 root root 4.0K 2008-11-22 02:42 (1980) Live at Last
 ---------------------------------------------------
 
 
+
 $ echo "what a stupid way to simply copy some text..." | clip
 Successfully copied the following to the clipboard:
 ---------------------------------------------------
-what a stupidy way to simply copy some text...
+what a stupid way to simply copy some text...
 ---------------------------------------------------
+
 
 
 $ cal > calendar.tmp
