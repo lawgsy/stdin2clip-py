@@ -1,0 +1,36 @@
+A really simple tool to copy standard input to the clipboard.
+3 random examples of how to use it:
+NOTE: in the examples below "clip" is an alias for "python clip.py"
+
+$ ls -hal | clip
+Successfully copied the following to the clipboard:
+---------------------------------------------------
+total 216K
+drwxrwxrwx 1 root root 4.0K 2008-12-13 11:10 .
+drwxrwxrwx 1 root root 192K 2008-12-28 14:28 ..
+drwxrwxrwx 1 root root 4.0K 2008-11-23 15:02 (1970) Paranoid
+drwxrwxrwx 1 root root 4.0K 2008-05-14 19:39 (1971) Master of Reality
+drwxrwxrwx 1 root root 4.0K 2008-11-23 15:03 (1973) Sabbath Bloody Sabbath
+drwxrwxrwx 1 root root 4.0K 2008-11-22 02:42 (1980) Live at Last
+---------------------------------------------------
+
+
+$ echo "what a stupid way to simply copy some text..." | clip
+Successfully copied the following to the clipboard:
+---------------------------------------------------
+what a stupidy way to simply copy some text...
+---------------------------------------------------
+
+
+$ cal > calendar.tmp
+$ cat calendar.tmp | clip
+Successfully copied the following to the clipboard:
+---------------------------------------------------
+   December 2008    
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29 30 31
+---------------------------------------------------
