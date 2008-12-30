@@ -22,4 +22,4 @@ try:
     print '---------------------------------------------------'
     print buffer
 except:
-    error('Failed to copy to clipboard!')
+    sys.stderr.write('\nAn error occurred! Failed to copy to clipboard!\n')
